@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+Proyecto: Tabla de Usuarios
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto consiste en mostrar una tabla de usuarios con los campos Id usuario, Código de usuario, Nombre de usuario, Contraseña, Fecha de alta, Activo Si o No. Además, se pueden ordenar y filtrar por cada una de las columnas.
+Tecnologías utilizadas
 
-## Available Scripts
+    Node.js
+    Express.js
+    Cors
+    MySQL
+    Dotenv
+    Nodemon
+    React
+    React-Bootstrap-Table
+    Hooks: useState, useEffect
 
-In the project directory, you can run:
+Instrucciones para correr el proyecto
+Requisitos previos
 
-### `npm start`
+    Node.js instalado en tu ordenador
+    npm instalado en tu ordenador
+    Datos de conexión de la base de datos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Pasos para correr el proyecto
+    API
+        Clona el repositorio api .
+        Abre una terminal.
+        Instala las dependencias con el comando npm install.
+        Crea un archivo .env en la carpeta backend con los datos de conexión de la base de datos
+        Corre el servidor con el comando npm start.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    FRONT
+        Clona el repositorio front .
+        Abre una terminal.
+        Instala las dependencias con el comando npm install.
+        Crea un archivo .env en la carpeta backend con la siguiente información:
+            REACT_APP_SERVER_URL=http://localhost:4000
+        Corre el cliente con el comando npm start.
+        Abre tu navegador en http://localhost:3000 y deberías ver la tabla de usuarios.
 
-### `npm test`
+Mejoras futuras
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Implementar la funcionalidad de agregar, modificar y eliminar usuarios.
+    Agregar un sistema de autenticación para acceder a la tabla de usuarios.
+    Mejorar la experiencia de usuario.
 
-### `npm run build`
+Feedback sobre este ejercicio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este ejercicio fue muy útil para aprender a utilizar Node.js y React para construir una aplicación completa. La utilización de las librerías de express, mysql y dotenv para el backend y react-bootstrap-table para el frontend me resultaron muy útiles y sencillas de implementar. En cuanto a las mejoras futuras, creo que podrían enriquecer mucho más el proyecto y hacerlo más completo y funcional. En general, me ha parecido un ejercicio muy práctico y entretenido para poner en práctica los conocimientos adquiridos.
