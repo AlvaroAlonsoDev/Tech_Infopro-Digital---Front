@@ -46,3 +46,6 @@ Mejoras futuras
 Feedback sobre este ejercicio
 
 Este ejercicio fue muy útil para aprender a utilizar Node.js y React para construir una aplicación completa. La utilización de las librerías de express, mysql y dotenv para el backend y react-bootstrap-table para el frontend me resultaron muy útiles y sencillas de implementar. En cuanto a las mejoras futuras, creo que podrían enriquecer mucho más el proyecto y hacerlo más completo y funcional. En general, me ha parecido un ejercicio muy práctico y entretenido para poner en práctica los conocimientos adquiridos.
+
+
+PD: En la API (index.js) hay 2 acciones al conectar con la db de mysql comentadas. Esto se debe a que una de ellas es para borrar la tabla de 'Usuarios' si fuese necesario, y la otra sirve para Insertar en dicha tabla mas registros.
